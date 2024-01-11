@@ -1,0 +1,83 @@
+body {
+    background-image: linear-gradient(0deg, orange, white, green);
+    background-size: cover;
+
+}
+
+.heading {
+
+    background-image: linear-gradient(90deg, orange, white, green);
+    border: 2px solid black;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: -1px 0 rgb(1, 255, 43), 0 1px rgb(217, 255, 0),
+        1px 0 rgb(0, 102, 255), 0 -1px rgb(255, 255, 255);
+        /* box shadow  */
+    box-shadow: 5px 5px;
+}
+
+.names {
+    border: 2px solid rgb(0, 0, 0);
+    margin: 20px;
+    padding: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-image: linear-gradient(180deg, orange, white, green );
+    /* specifying color of shadow  */
+   box-shadow: 10px 10px orange;
+
+}
+
+h4 {
+
+    border: 2px solid black;
+    padding: 5px;
+    color: black;
+    text-align: center;
+    background-image: linear-gradient(270deg, orange, white, green);
+    /* adding b lur in shadow */
+    box-shadow: 5px 5px 10px aqua;
+}
+
+
+
+
+.gender {
+    border: 2px solid black;
+    padding: 15px;
+    margin: 20px;
+    background-image: linear-gradient(45deg, orange, white, green);
+/* spread radius of shadow */
+    box-shadow: 10px 10px 5px 12px red;
+}
+
+h3 {
+    border: 2px solid black;
+    padding: 5px;
+    color: black;
+    text-align: center;
+    background-image: linear-gradient(75deg, orange, white, green);
+    /* inset parameter */
+   box-shadow: 10px 10px 5px rgb(255, 225, 0) inset;
+}
+.cources {
+    border: 2px solid black;
+    padding: 15px;
+    margin: 20px;
+    background-image: linear-gradient(45deg, orange, white, green);
+    /* adding multiple shadows */
+    box-shadow: 5px 5px blue,10px 10px red,15px 15px green;
+}
+
+.inp {
+    text-align: center;
+}
+
+.inp input {
+    font-size: large;
+    border-radius: 13px;
+    padding: 5px 10px 5px 10px;
+    background-color: pink;
+    text-align: center;
+    border: 3px solid black;
+}

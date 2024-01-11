@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        @media (max-width:300px) {
+            #box1 {
+                display: block;
+                background-color: rgb(255, 216, 222);
+            }
+        }
+
+        @media (min-width:300px) and (max-width:500px) {
+            #box2 {
+                display: block;
+                background-color: rgb(4, 0, 255);
+            }
+        }
+
+        @media (min-width:500px) and (max-width:800px) {
+            #box3 {
+                display: block;
+                background-color: red;
+            }
+        }
+
+        @media (min-width:800px) {
+            #box4 {
+                display: block;
+                background-color: rgb(0, 255, 64);
+            }
+        }
+
+        .box {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box" id="box1">
+        <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
+    </div>
+    <div class="box" id="box2">
+        <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
+    </div>
+    <div class="box" id="box3">
+        <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
+    </div>
+    <div class="box" id="box4">
+        <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
+    </div>
+</body>
+
+</html>

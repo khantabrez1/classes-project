@@ -1,0 +1,133 @@
+body{
+  background-image: url(backimg.jpg);
+  background-size: cover
+}
+.logo{
+    float: left;
+    text-align: center;
+    
+}
+.logo img{
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+  border: 2px solid rgb(253, 2, 2);
+}
+.logo P{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    z-index: 1;
+   font-weight: 800;
+   padding-left: 3px;
+}
+.navbar{
+    margin-left: 45px;
+    background-color: rgb(162, 244, 255);
+    color: aliceblue;
+    border-radius: 20px;
+    margin-right: 200px;
+ 
+}
+.navbar ul{
+    overflow: auto;
+  
+
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 8px;
+    padding: 3px;
+    transition: height 2s,width 2s;
+
+}
+.navbar li:hover{
+/* height: 30px;
+width: 60px; */
+}
+.navbar li a{
+    
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(192, 255, 255);
+    padding: 3px 3px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+   height: 20px;
+   width: 50px;
+    transition: width 3s, height 3s,transform 2s;
+}
+.navbar li a:hover{
+  
+    width: 50px;
+    height: 30px;
+transform: rotate(360deg);
+font-weight: 800;
+}
+.navbar li a:active{
+    color: rgb(104, 231, 125);
+
+}
+.drop{
+    
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.subhome{
+    display: none;
+    background-color: rgb(201, 255, 237);
+    position: absolute;
+    min-width: 50px;
+
+    z-index: 1;
+}
+.subhome a{
+    color: black;
+    text-decoration: none;
+    display: block;
+
+}
+.subhome a:hover{
+    background-color: rgb(220, 255, 243);
+}
+
+.home:hover .subhome{
+    display: block;
+}
+
+
+
+
+
+
+
+
+.search{
+    margin: 5px;
+    padding: 3px;
+    border-radius:9px;
+    float: right;
+    text-align: center;
+    margin-top: -55px;
+}
+.search input{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    color: red;
+}
+
+.text{
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    display: flex;    
+}
+
+.text img{
+    height: 100px;
+    width: 100px;
+    float: right;
+}

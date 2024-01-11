@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(255, 240, 243);
+}
+.head{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+.yname{
+border: 2px solid black;
+padding: 8px;
+}
+.yname label{
+    padding:8px ;
+}
+.feedback input{
+border: 2px solid black;
+
+}
